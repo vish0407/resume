@@ -1,0 +1,32 @@
+input{
+    padding:5px;
+    font-size:16px;
+    width:280px;
+    outline: none;
+    border:1px solid black;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    border-right:1px groove black;
+}
+button{
+    width:50px;
+    height:38px;
+    font-size:18px;
+    border-collapse: collapse;
+    border:1px solid black;
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    border-left: none;
+    cursor: pointer;
+}
+.dropdown{
+    width:292px;
+    height:auto;
+    background-color: rgb(219, 243, 235);
+    border-radius:7px;
+}
+.dropdown p{
+    margin:0px 0 0px 20px;
+    padding:1px 0;
+    cursor: pointer;
+}

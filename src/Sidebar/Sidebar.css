@@ -1,0 +1,64 @@
+body{
+    margin:0;
+    padding:0;
+}
+div{
+    margin:0;
+    padding: 0;
+}
+.sidebar{
+    height:100vh;
+    width:20%;
+    background-color: blue;
+    position:fixed;
+    z-index:2;
+}
+.navigation{
+    float: right;
+}
+.navigation i{
+    padding:10px;
+    font-size:20px;
+    color:azure;
+    cursor: pointer;
+}
+.section{
+    margin:0;
+    padding:10px 0px;
+}
+.section h2{
+    padding:15px;
+    text-align: center;
+    color:aliceblue;
+}
+.search{
+    padding:5px 20px;
+}
+.search i{
+    font-size: 20px;
+    color: aliceblue;
+}
+.section #search{
+    padding:5px;
+    margin-left:15px;
+    outline:none;
+    border:1.5px solid;
+    border-radius:10px;
+}
+.section li{
+    padding:12px;
+    font-size: 20px;
+    color:white;
+    list-style-type: none;
+}
+.section li i{
+    padding-right:5%;
+}
+.section li:hover{
+    background-color: rgb(38, 189, 222);
+    cursor:pointer;
+    color:black
+}
+.elements li{
+    padding-left: 20px;
+}

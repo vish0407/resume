@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+.main-box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /*background:transparent;*/
+    background: linear-gradient(45deg, transparent 0%, transparent 57%, #9e61ad 100%),
+        linear-gradient(-45deg, #9fc950 0%, #A14436 0.3%, #c85de2 112%, transparent 11%),
+        linear-gradient(-90deg, #75da32 100%, #46c0df 65%, transparent 20%);
+    height:100vh;
+}
+
+#v-box {
+    background: #faf8f8;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin:20% 23vw;
+}
+
+#v-box h2 {
+    text-align: center;
+    margin: 10px;
+    color:rgb(93, 93, 211);
+    font-size: 30px;
+}
+
+tr input {
+    padding: 5px;
+    font-size: 16px;
+    outline: none;
+    width: 300px;
+    border: 1px solid black;
+    border-radius:2px;
+    background: transparent;
+}
+
+td {
+    padding-top: 20px;
+}
+
+textarea {
+    font-size: 16px;
+    outline: none;
+    padding: 5px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius:2px;
+    background: transparent;
+}
+
+td p {
+    color: red;
+}
+#test{
+    color:transparent;
+    height:25px;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.btn button{
+    color:blue;
+    padding:2px 5px;
+    width:25%;
+    font-size: 16px;
+}
+#popdiv{
+    background:rgb(244, 241, 241);
+     width:450px;
+     height:300px;
+     top:20%;
+     left:36%;
+     display:none;
+     justify-content: center;
+     align-items: center;
+     border-radius: 5px;
+     position: absolute;
+}
+.pop-img img{
+    margin:10px 31%;
+}

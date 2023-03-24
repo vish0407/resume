@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+.C-table table {
+    width:800px;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.C-table th,
+td {
+    border: 1px solid #ddd;
+    padding:6px;
+}
+#sr{
+    width:10px;
+}
+.C-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+.C-table button{
+    background: rgb(94, 94, 236);
+    border:none;
+    border-radius:5px;
+    color:white;
+    padding:5px 7px;
+    cursor: pointer;
+}
+.A-table{
+    justify-content: center;
+    align-items:center;
+}
+.A-table td{
+    border:none;
+}
+.A-table input{
+    width:500px;
+    padding:5px;
+    outline-color:rgb(166, 193, 234);
+    outline-offset:1.3px;
+    border:1px solid #ddd;
+    border-radius:3px;
+    font-size: 16px;
+}
+.A-table button{
+    background: rgb(94, 94, 236);
+    border:none;
+    border-radius:3px;
+    color:white;
+    padding:5px 7px;
+    cursor: pointer;
+    width:512px;
+    font-size: 16px;
+}
+
+/*------------ search -------------*/
+#search{
+    padding: 0;
+    width:24%;
+}
+.Search input{
+    height:40px;
+    width:140px;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-size: 16px;
+    border: none;
+}
+.Search button{
+    margin:4px 0;
+    background-color: transparent;
+    font-size: 18px;
+    color: rgb(218, 213, 213);
+}

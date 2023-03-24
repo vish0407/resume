@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+}
+
+nav {
+    background-color: rgb(255, 181, 181);
+    height: 10vh;
+}
+
+.btn {
+    margin: 10px 0 0 70%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.main {
+    margin: 13px 0 0 60%;
+    height: 0vh;
+    position: absolute;
+}
+  
+.box {
+    text-align: center;
+    display: grid;
+    place-content: center;
+    background-color: rgb(255, 240, 240);
+    height: 460px;
+    width: 380px;
+    overflow: hidden;
+}
+
+.box1 {
+    text-align: center;
+    display: grid;
+    place-content: center;
+    background-color: rgb(255, 240, 240);
+    height: 390px;
+    width: 320px;
+}
+.box1 h2{
+    margin-bottom:30px;
+}
+.box p {
+    color: red;
+}
+
+.box1 p {
+    color: red;
+}
+
+.btns {
+    cursor: pointer;
+    background-image: linear-gradient(to right, #a1c4fd 0%, #32beff 51%, #9ee8f0 100%);
+    color: white;
+    width: 170px;
+    height: 30px;
+    font-size: 16px;
+    margin: 20px 0;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+}
+
+.btns:hover {
+    background-position: right center;
+}
+
+.box1 tr input {
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    border-bottom: 1px groove;
+    outline: none;
+    width: 250px;
+    margin: 2px 0 1px 0;
+    background: transparent;
+}
+
+.box tr input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 5px;
+    outline: none;
+    width: 300px;
+    margin: 10px 0 1px 0;
+    background: transparent;
+}
+
+.BTN {
+    background: none;
+    color: black;
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.box ::-webkit-input-placeholder {
+    text-align: center;
+  }
+.BTN:hover{
+    background-color: aqua;
+}
+
+.BTNS {
+    display: flex;
+    place-content: center;
+    gap: 90px;
+    margin-top: 10px;
+}
+.btns-r{
+    width:320px;
+    height:40px;
+    border-radius: 5px;
+    margin-top:10px;
+}
+
+.BTNF {
+    width: 140px;
+}
+.google{
+    border:1px groove black;
+    border-radius: 5px;
+    height:30px;
+    font-size: 15px;
+    cursor: pointer;
+    background: transparent;
+}
+.box tr td {
+    text-align: left;
+    font-size: 15px;
+}
+
+.box1 tr td {
+    text-align: left;
+    font-size: 14px;
+    margin-top: 90px;
+}
+.al-main {
+    left: 0%;
+    bottom: 0;
+    right:0;
+    top:0;
+    position: fixed;
+    background-color: rgba(189, 189, 189, 0.8);
+}
+.al-box{
+    position: fixed;
+    left:37%;
+    top:10%;
+}
