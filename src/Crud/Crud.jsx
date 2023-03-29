@@ -86,4 +86,5 @@ export const Crud = () => {
     )
 }
 
+
 export default Crud;
